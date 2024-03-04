@@ -12,7 +12,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/virtual-Kitchen', {
     // useUnifiedTopology: true
 });
 const db = mongoose.connection;
-db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 // Define routes
 const virtualKitchenRouter = require('./routes/VirtualKitchen')
