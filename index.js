@@ -15,7 +15,7 @@ const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
 // Define routes
-const virtualKitchenRouter = require('./routes/VirtualKitchen')
+const virtualKitchenRouter = require('./routes/VirtualKitchen');
 app.use(express.json())
 app.use('/api/virtual-kitchens', virtualKitchenRouter)
 
