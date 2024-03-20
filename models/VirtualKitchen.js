@@ -9,4 +9,4 @@ const virtualKitchenSchema = new mongoose.Schema({
 
 const VirtualKitchen = mongoose.model('VirtualKitchen', virtualKitchenSchema);
 
-module.exports = VirtualKitchen;
+module.exports = VirtualKitchen
