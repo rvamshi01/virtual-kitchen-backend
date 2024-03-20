@@ -1,6 +1,6 @@
 // models/VirtualKitchen.js
 
-const mongoose = require('mongoose');
+const mongoose = require('mongoose')
 
 const virtualKitchenSchema = new mongoose.Schema({
     name: String,
