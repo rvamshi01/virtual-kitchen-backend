@@ -7,6 +7,6 @@ const virtualKitchenSchema = new mongoose.Schema({
     location: String
 });
 
-const VirtualKitchen = mongoose.model('VirtualKitchen', virtualKitchenSchema);
+const VirtualKitchen = mongoose.model('VirtualKitchen', virtualKitchenSchema)
 
 module.exports = VirtualKitchen;
