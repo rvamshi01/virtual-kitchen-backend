@@ -5,7 +5,7 @@ const router = express.Router();
 const VirtualKitchen = require('../models/VirtualKitchen');
 
 // Get all virtual kitchens
-router.get('/ge', async (req, res) => {
+router.get('/e', async (req, res) => {
     try {
         const virtualKitchens = await VirtualKitchen.find()
         res.json(virtualKitchens);
