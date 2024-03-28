@@ -10,7 +10,7 @@ router.get('/', async (req, res) => {
         const virtualKitchens = await VirtualKitchen.find()
         res.json(virtualKitchens);
     } catch (err) {
-        res.status(500).json({ message: err.message });
+        res.status(500).json({ message: err.message })
     }
 });
 
