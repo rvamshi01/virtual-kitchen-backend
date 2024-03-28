@@ -7,7 +7,7 @@ const VirtualKitchen = require('../models/VirtualKitchen') ;
 // Get all virtual kitchens
 router.get('/', async (req, res) => {
     try {
-        const virtualKitchens = await VirtualKitchen.find()
+        const virtualKitchens = await VirtualKitchen.find() ;
         res.json(virtualKitchens);
     } catch (err) {
         res.status(500).json({ message: err.message })
