@@ -2,7 +2,7 @@
 
 const express = require('express');
 const router = express.Router(); 
-const VirtualKitchen = require('../models/VirtualKitchen') ;
+const VirtualKitchen = require('../models/VirtualKitchen');
 
 // Get all virtual kitchens
 router.get('/', async (req, res) => {
