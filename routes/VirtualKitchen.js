@@ -1,6 +1,6 @@
 // routes/virtualKitchen.js
 
-const express = require('express')  
+const express = require('express');
 const router = express.Router() ;  
 const VirtualKitchen = require('../models/VirtualKitchen') ;
 
